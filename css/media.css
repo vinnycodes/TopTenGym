@@ -1,0 +1,378 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  body #perks {
+    justify-content: center; }
+    body #perks .perkDescription {
+      height: 15vh; }
+  body #contact {
+    height: 40vh;
+    justify-content: center; }
+  body #locations {
+    height: 40vh; }
+    body #locations .locationContainers .locationCard .locationInfo {
+      height: 25%; }
+  body #trainers .trainerCard {
+    width: 80%;
+    align-items: center; }
+  body #trainers .trainerOne, body #trainers .trainerThree {
+    justify-content: space-evenly; }
+  body #joinFormContainer {
+    height: 110vh; }
+  body .fa-chevron-circle-up {
+    display: none; } }
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  body footer {
+    height: 45vh; } }
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  body header .topNav {
+    flex-direction: column;
+    height: 20vh; }
+    body header .topNav .logo {
+      font-size: 2rem; }
+    body header .topNav ul {
+      flex-direction: column; }
+      body header .topNav ul li {
+        text-align: center;
+        font-size: 1rem;
+        margin-right: 0rem;
+        line-height: 1.5rem; }
+  body header .bottomNav ul li {
+    margin-right: 2rem; }
+  body #perks {
+    height: 90vh; }
+    body #perks .threePerks {
+      grid-gap: 2rem; }
+      body #perks .threePerks .perk {
+        grid-column: 1 / span 3; }
+  body #pricing {
+    height: 190vh; }
+    body #pricing .pricingPlanContainer {
+      grid-gap: 2rem; }
+      body #pricing .pricingPlanContainer .pricingPlan {
+        grid-column: 1 / span 3;
+        width: 90vw; }
+        body #pricing .pricingPlanContainer .pricingPlan table {
+          width: 100vw; }
+  body footer {
+    height: 70vh; }
+  body .fa-chevron-circle-up {
+    color: #00DBA0;
+    position: fixed;
+    justify-content: center;
+    top: 92%;
+    left: 92%; }
+  body #locations {
+    height: 200vh; }
+    body #locations .locationContainers {
+      grid-gap: 2rem; }
+      body #locations .locationContainers .locationCard {
+        grid-column: 1 / span 3; }
+      body #locations .locationContainers .locationOne {
+        height: 85%; }
+  body #trainers .trainerCard {
+    height: 35%; }
+    body #trainers .trainerCard .trainerImage {
+      grid-column: 1 / span 2; }
+    body #trainers .trainerCard .trainerDescription {
+      grid-column: 1 / span 2; }
+      body #trainers .trainerCard .trainerDescription p {
+        display: none; }
+  body #trainers .trainerTwo, body #trainers .trainerFour {
+    grid-template-rows: repeat(2, 1fr); }
+    body #trainers .trainerTwo .trainerImage, body #trainers .trainerFour .trainerImage {
+      grid-row: 1 / span 1; } }
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  html, body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; }
+  body header .topNav {
+    flex-direction: column;
+    height: 20vh; }
+    body header .topNav .logo {
+      font-size: 2rem; }
+    body header .topNav ul {
+      flex-direction: column; }
+      body header .topNav ul li {
+        text-align: center;
+        font-size: 1rem;
+        margin-right: 0rem;
+        line-height: 1.5rem; }
+  body header .bottomNav ul li {
+    margin-right: 2rem; }
+  body #perks {
+    height: 90vh; }
+    body #perks .threePerks {
+      grid-gap: 2rem; }
+      body #perks .threePerks .perk {
+        grid-column: 1 / span 3; }
+  body #pricing {
+    height: 190vh; }
+    body #pricing .pricingPlanContainer {
+      grid-gap: 2rem; }
+      body #pricing .pricingPlanContainer .pricingPlan {
+        grid-column: 1 / span 3;
+        width: 90vw; }
+        body #pricing .pricingPlanContainer .pricingPlan table {
+          width: 100vw; }
+  body #contact .form form input {
+    margin-right: 1rem; }
+  body footer {
+    height: 100vh; }
+    body footer .info {
+      grid-column: 1 / span 4; }
+      body footer .info p {
+        width: 95%; }
+      body footer .info ul {
+        justify-content: center; }
+    body footer .contactInfo {
+      line-height: 2rem; }
+      body footer .contactInfo ul {
+        display: flex;
+        flex-direction: column; }
+  body .fa-chevron-circle-up {
+    display: none; }
+  body #locations {
+    height: 140vh; }
+    body #locations .locationsDescription {
+      height: 15vh;
+      line-height: 3rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+      body #locations .locationsDescription h1 {
+        font-size: 2rem; }
+    body #locations .locationContainers {
+      grid-gap: 2rem; }
+      body #locations .locationContainers .locationCard {
+        grid-column: 1 / span 3; }
+      body #locations .locationContainers .locationOne {
+        height: 85%; }
+  body #trainers .trainerCard {
+    height: 35%; }
+    body #trainers .trainerCard .trainerImage {
+      grid-column: 1 / span 2; }
+    body #trainers .trainerCard .trainerDescription {
+      grid-column: 1 / span 2; }
+      body #trainers .trainerCard .trainerDescription p {
+        display: none; }
+  body #trainers .trainerTwo, body #trainers .trainerFour {
+    grid-template-rows: repeat(2, 1fr); }
+    body #trainers .trainerTwo .trainerImage, body #trainers .trainerFour .trainerImage {
+      grid-row: 1 / span 1; }
+  body #joinFormContainer .joinform h1 {
+    height: 6vh;
+    width: 110%; } }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 823px) and (orientation: landscape) {
+  body header {
+    height: 100vh; }
+    body header .bottomNav {
+      height: 15vh; }
+  body #perks {
+    height: 100vh; }
+    body #perks .perkDescription {
+      height: 40vh; }
+  body #pricing {
+    height: 110vh; }
+    body #pricing .pricingPlanContainer .pricingPlan table button {
+      font-size: .8rem;
+      padding: 1px; }
+  body #contact {
+    height: 70vh; }
+    body #contact .form form input[type=submit] {
+      font-size: .7rem;
+      font-weight: 700; }
+  body footer {
+    height: 120vh; }
+    body footer .info {
+      grid-column: 1 / span 4; }
+      body footer .info p {
+        width: 95%; }
+      body footer .info ul {
+        justify-content: center; }
+    body footer .contactInfo {
+      line-height: 2rem; }
+      body footer .contactInfo ul {
+        display: flex;
+        flex-direction: column; }
+  body .fa-chevron-circle-up {
+    display: none; }
+  body #locations {
+    height: 110vh; }
+    body #locations .locationContainers .locationCard {
+      height: 80vh; }
+  body #trainers {
+    height: 250vh; }
+    body #trainers .trainerCard {
+      justify-content: space-evenly;
+      width: 70%; }
+  body #joinFormContainer {
+    height: 220vh; }
+    body #joinFormContainer .joinDescription {
+      height: 40vh; }
+    body #joinFormContainer .joinform h1 {
+      height: 10vh; }
+    body #joinFormContainer .joinform form {
+      height: 80vh; }
+      body #joinFormContainer .joinform form .aboutMe {
+        height: 20vh;
+        margin-bottom: 1rem; } }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  body #perks {
+    height: 100vh; }
+  body #pricing .pricingPlanContainer .pricingPlan {
+    justify-content: space-around; }
+  body #locations {
+    height: 165vh; }
+  body #trainers {
+    height: 150vh; }
+  body #joinFormContainer {
+    height: 130vh; }
+    body #joinFormContainer .joinform h1 {
+      height: 7vh; }
+    body #joinFormContainer .joinform form .aboutMe {
+      margin-bottom: 1rem; } }
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+  body header {
+    height: 100vh; }
+    body header .topNav {
+      height: 20vh; }
+      body header .topNav .logo {
+        font-size: 1.5rem; }
+      body header .topNav ul {
+        flex-direction: row; }
+        body header .topNav ul li {
+          margin-right: 1rem; }
+  body #perks {
+    height: 180vh; }
+  body #pricing {
+    height: 230vh; }
+  body footer {
+    height: 160vh; }
+  body #locations {
+    height: 120vh; }
+    body #locations .locationsDescription {
+      line-height: 1rem;
+      margin: 1rem; }
+    body #locations .locationContainers {
+      grid-gap: .3rem; }
+      body #locations .locationContainers .locationCard {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1; }
+        body #locations .locationContainers .locationCard .locationInfo {
+          height: 25%;
+          line-height: 1.5rem; }
+      body #locations .locationContainers .locationTwo {
+        grid-column: 2 / span 1; }
+      body #locations .locationContainers .locationThree {
+        grid-column: 3 / span 1; }
+  body #trainers .trainerTitle {
+    height: 25vh; }
+  body #trainers .trainerCard {
+    height: 50%; }
+    body #trainers .trainerCard .circle {
+      height: 110px;
+      width: 110px; }
+  body #trainers .trainerOne .trainerImage {
+    background: url("../imgs/coach1.jpg") 65% 20%/250% 350% no-repeat; } }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  body #perks {
+    height: 200vh; }
+    body #perks .threePerks {
+      grid-gap: 2rem; }
+      body #perks .threePerks .perk {
+        grid-column: 1 / span 3; }
+  body #pricing {
+    height: 240vh; }
+  body #contact {
+    height: 80vh; }
+  body footer {
+    height: 200vh; }
+    body footer .contactInfo {
+      width: 200%; }
+  body .fa-chevron-circle-up {
+    color: #00DBA0;
+    position: fixed;
+    justify-content: center;
+    top: 92%;
+    left: 92%; }
+  body #locations .locationContainers .locationCard {
+    height: 130%; }
+  body #trainers .trainerTitle {
+    margin-bottom: 1rem; }
+  body #trainers .trainerCard {
+    height: 35%; }
+    body #trainers .trainerCard .trainerImage {
+      grid-column: 1 / span 2; }
+    body #trainers .trainerCard .trainerDescription {
+      grid-column: 1 / span 2; }
+      body #trainers .trainerCard .trainerDescription p {
+        display: none; }
+  body #trainers .trainerTwo, body #trainers .trainerFour {
+    grid-template-rows: repeat(2, 1fr); }
+    body #trainers .trainerTwo .trainerImage, body #trainers .trainerFour .trainerImage {
+      grid-row: 1 / span 1; }
+  body #joinFormContainer {
+    height: 230vh; } }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  body header .headerCenter {
+    text-align: center; }
+  body #perks {
+    height: 130vh; }
+  body #pricing {
+    height: 200vh; }
+  body footer {
+    height: 140vh; }
+  body #locations {
+    height: 180vh; }
+    body #locations .locationsDescription {
+      line-height: 1.7rem; }
+    body #locations .locationContainers .locationCard .locationInfo {
+      height: 30%; }
+  body #trainers {
+    height: 170vh; }
+  body #joinFormContainer {
+    height: 150vh; }
+    body #joinFormContainer .joinDescription {
+      height: 30vh;
+      line-height: 3rem; }
+      body #joinFormContainer .joinDescription h1 {
+        font-size: 2rem;
+        border-bottom: 1px solid black; }
+      body #joinFormContainer .joinDescription h3 {
+        line-height: 1.5rem; }
+    body #joinFormContainer .joinform h1 {
+      font-size: 1.2rem; } }
