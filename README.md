@@ -1,3 +1,3 @@
 # TopTenGym
 
-[Top Ten Gym](https://toptengym.netlify.com/index.html){:target="_blank"}
+[Top Ten Gym](https://toptengym.netlify.com/index.html)
